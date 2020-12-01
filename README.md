@@ -5,9 +5,15 @@ $ cd sample_project_with_setup
 $ pip install .
 ```
 ### Usage
-```py
->>> import client_app
->>> client_app.generate()
+```sh
+$ export CFETCH_SERVER=http://localhost:8080
+$ cfetch.py --help
+$ cfetch.py get_datasets
+$ cfetch.py get_datasets <dataset_id>
+$ cfetch.py upload_dataset <filepath>
+$ cfetch.py delete_dataset <dataset_id>
+$ cfetch.py stats <dataset_id>
+$ cfetch.py plot <dataset_id>
 ```
 ### Remove package
 ```sh
