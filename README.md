@@ -17,6 +17,6 @@ $ cfetch.py plot <dataset_id>
 ```
 ### Remove package
 ```sh
-$ pip uninstall clientapp
+$ pip uninstall cfetch
 ```
 
